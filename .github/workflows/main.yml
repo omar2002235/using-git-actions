@@ -7,21 +7,17 @@ on:
 
 
 
-
-
-
+        
 jobs:
-    build:
-        runs-on: ubuntu-latest
-
-
+  build:
+    runs-on: ubuntu-latest
     
-        steps:
-                - name: 'Testing Github'
-                run: pwd
-
-                - name: 'Testing Printing'
-                run: echo omar
+    steps:
+      - name: 'Testing Github'
+        run: pwd 
+        
+      - name: 'Testing Printig'
+        run: pwd 
 
 
 
