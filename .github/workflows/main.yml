@@ -17,7 +17,7 @@ jobs:
         run: pwd 
         
       - name: 'Testing Printig'
-        run: pwd 
+        run: echo omar
 
 
 
