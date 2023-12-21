@@ -13,11 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: 'Testing Github'
-        run: pwd 
+      - name: 'Printing folder contents'
+        run: ls
         
-      - name: 'Testing Printig'
-        run: echo omar
+
 
 
 
